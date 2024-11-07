@@ -1,0 +1,20 @@
+.form {
+    box-shadow: inset 1px 1px 10px #d6eaff, inset -1px -1px 10px #747474;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .form:hover {
+    box-shadow: 1px 1px 15px #747474, -1px -1px 15px #d6eaff;
+    outline: 1px solid #00eeff;
+  }
+  
+  .checkboxLabel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkboxLabel input {
+    margin-right: 10px;
+  }
+  

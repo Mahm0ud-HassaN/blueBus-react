@@ -1,0 +1,14 @@
+
+.container{
+    color:rgb(13, 0, 83) !important;
+    
+}
+.nav-link {
+
+    padding: 10px 30px;
+    font-size: larger;
+}
+.inner img {
+height: 500px;
+object-fit: cover; 
+}

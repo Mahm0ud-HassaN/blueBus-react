@@ -1,0 +1,96 @@
+.bac {
+  position: relative;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: changeBackground 20s infinite; 
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes changeBackground {
+  0% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/img/1.jpg");
+  }
+  25% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/img/2.jpg");
+  }
+  50% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/img/3.jpg");
+  }
+  75% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/img/4.jpg");
+  }
+  100% {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/img/5.jpg");
+  }
+}
+
+.big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+
+
+.from {
+  box-shadow: inset 1px 1px 10px #0056b3,
+              inset -1px -1px 10px #646eff;
+}
+
+/* transportaion */
+
+/* About */
+.about {
+  position: relative;
+}
+
+.about img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.aboutCon {
+  position: absolute;
+  top: 0;
+  bottom:0px;
+  right:0px;
+  background-color:rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 30px 20px;
+  line-height:40px;
+  font-weight: bolder;
+  overflow: hidden;
+}
+
+/* App Store */
+.appStore {
+  background: #E6EAF1;
+  border-radius: 20px;
+}
+
+.appStore h3 {
+  color: #002D59;
+}
+
+
+.payment {
+  background: #F6F7F9;
+  color: #002D59;
+}
+
+.payIcons img {
+  transition: transform 0.2s;
+}
+
+.payIcons img:hover {
+  transform: scale(1.1);
+}

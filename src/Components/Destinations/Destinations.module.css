@@ -1,0 +1,47 @@
+.over {
+    height: 350px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .imgOver1 {
+    background-image: linear-gradient(to top, #000000 0%, transparent 100%), url('../../../public/img/giza.png');
+  }
+  
+  .imgOver2 {
+    background-image: linear-gradient(to top, #000000 0%, transparent 100%), url('../../../public//img/alex.png');
+  }
+  
+  .imgOver3 {
+    background-image: linear-gradient(to top, #000000 0%, transparent 100%), url('../../../public//img/sharm.png');
+  }
+  
+  .overlay {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .text a {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .over:hover .overlay {
+    bottom: 50px;
+  }
+  
+  .over:hover .text a {
+    opacity: 1;
+  }
+  
+  
+  
