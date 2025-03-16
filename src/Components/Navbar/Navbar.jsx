@@ -38,11 +38,21 @@ export default function Navbar() {
             </li>
           </ul>
           <div className="d-flex align-items-center">
-            <Link className="text-white text-decoration-none" to="#">
+           
+
+
+            <li class="nav-item dropdown " style={{marginBottom:'30px'}}>
+          <Link className="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i className="fas fa-user fa-2x px-2 "></i>
+          </Link>
+          <ul className="dropdown-menu  me-auto ">
+            <li><Link className="dropdown-item text-black" href="#">Register</Link></li>
+            <li><Link className="dropdown-item text-black" href="#">Login</Link></li>
+           
+          </ul>
+        </li>
+             <Link className="text-white text-decoration-none" to="#">
               <img className="mx-0 mx-md-3" src="/img/egypt.webp" width="40" alt="Egypt Flag" />
-            </Link>
-            <Link className="text-white text-decoration-none" to="#">
-              <i className="fas fa-user fa-2x px-2 text-info"></i>
             </Link>
           </div>
         </div>
